@@ -1,0 +1,23 @@
+{
+    "name": "Pug Demo",
+    "version": "1.0",
+    "oeversion": "12.8",
+    "graphicalMode": false,
+    "charset": "utf-8",
+    "extraParameters": "-zn -D 10000 -inp 32000 -tok 5000",
+
+    "buildPath": [
+      { "type": "source", "path": "." },
+      { "type": "source", "path": "src" }
+    ],
+    "numThreads": 2,
+    "dbConnections": [{
+      "name": "sports2000",
+      "connect": "-db sports2000 -H localhost -S 25000",
+      "schemaFile": "db\\sports2000.df",
+      "aliases": [ "dictdb"]
+    }],
+    "procedures": [],
+    "profiles": [
+    ]
+  }

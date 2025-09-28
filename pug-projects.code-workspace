@@ -1,0 +1,64 @@
+{
+	"folders": [
+		/* {
+			"path": "sports-app"
+		}, */
+		{
+			"path": "pug-demo"
+		}
+	],
+
+	"settings": {
+		"files.exclude": {
+			"**/*.r": true,
+			"**/.builder": true,
+			"**/.externalToolBuilders": true,
+			"**/.sonarlint": true,
+			"**/.vscode": false
+		},
+		"files.encoding": "utf-8",
+		"files.eol": "\r\n",
+		"files.trimTrailingWhitespace": true,
+		"files.associations": {
+			"*.p": "abl",
+			"*.cls": "abl",
+			"*.w": "abl",
+			"*.i": "abl"
+		},
+		"editor.formatOnPaste": true,
+		"abl.buildMode": 1 /* ,
+        "templates.folder": "",
+		"terminal.integrated.enablePersistentSessions": true,
+		"abl.buildMode": 3,
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#65c89b",
+			"activityBar.background": "#65c89b",
+			"activityBar.foreground": "#15202b",
+			"activityBar.inactiveForeground": "#15202b99",
+			"activityBarBadge.background": "#945bc4",
+			"activityBarBadge.foreground": "#e7e7e7",
+			"commandCenter.border": "#15202b99",
+			"sash.hoverBorder": "#65c89b",
+			"statusBar.background": "#42b883",
+			"statusBar.foreground": "#15202b",
+			"statusBarItem.hoverBackground": "#359268",
+			"statusBarItem.remoteBackground": "#42b883",
+			"statusBarItem.remoteForeground": "#15202b",
+			"titleBar.activeBackground": "#42b883",
+			"titleBar.activeForeground": "#15202b",
+			"titleBar.inactiveBackground": "#42b88399",
+			"titleBar.inactiveForeground": "#15202b99"
+		} */
+    },
+	"extensions": {
+		"recommendations": [
+			"RiversideSoftware.openedge-abl-lsp",
+			"RiversideSoftware.openedge-abl-lsp-server",
+			"BalticAmadeus.openedge-abl-formatter" /* ,
+			"qcz.text-power-tools",
+			"RiversideSoftware.sonarlint-abl",
+			"calestialgem.vscode-just-eclipse-theme",
+			"vscode-icons-team.vscode-icons" */
+		]
+	}
+}
